@@ -1,0 +1,32 @@
+{"properties": [
+  {
+    "name": "port",
+    "type": "java.lang.String",
+    "description": "A description for 'port'"
+  },
+  {
+    "name": "resilience4j.circuitbreaker.instances.customer-service.failure-rate-threshold",
+    "type": "java.lang.String",
+    "description": "A description for 'resilience4j.circuitbreaker.instances.customer-service.failure-rate-threshold'"
+  },
+  {
+    "name": "resilience4j.circuitbreaker.instances.customer-service.ringBufferSizeInClosedState",
+    "type": "java.lang.String",
+    "description": "A description for 'resilience4j.circuitbreaker.instances.customer-service.ringBufferSizeInClosedState'"
+  },
+  {
+    "name": "resilience4j.circuitbreaker.instances.customer-service.ringBufferSizeInHalfOpenState",
+    "type": "java.lang.String",
+    "description": "A description for 'resilience4j.circuitbreaker.instances.customer-service.ringBufferSizeInHalfOpenState'"
+  },
+  {
+    "name": "resilience4j.circuitbreaker.instances.customer-service.waitDurationInOpenState",
+    "type": "java.lang.String",
+    "description": "A description for 'resilience4j.circuitbreaker.instances.customer-service.waitDurationInOpenState'"
+  },
+  {
+    "name": "resilience4j.circuitbreaker.instances.customer-service.automaticTransitionFromOpenToHalfOpenEnabled",
+    "type": "java.lang.String",
+    "description": "A description for 'resilience4j.circuitbreaker.instances.customer-service.automaticTransitionFromOpenToHalfOpenEnabled'"
+  }
+]}
