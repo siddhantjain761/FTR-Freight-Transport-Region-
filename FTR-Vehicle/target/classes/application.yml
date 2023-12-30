@@ -1,0 +1,10 @@
+resilience4j:
+  circuitbreaker:
+    instances:
+      customerService:
+        slidingWindowType: COUNT_BASED
+        failureRateThreshold: 50
+        ringBufferSizeInClosedState: 5
+        ringBufferSizeInHalfOpenState: 3
+        waitDurationInOpenState: 20s
+        automaticTransitionFromOpenToHalfOpenEnabled: true
